@@ -1,0 +1,13 @@
+{
+  "name": "prettier-config-custom",
+  "version": "0.0.0",
+  "main": "./prettier-config-custom.json",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
