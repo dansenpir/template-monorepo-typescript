@@ -1,6 +1,13 @@
 {
   "extends": [
     "turbo",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": [
+    "@typescript-eslint"
   ]
 }
