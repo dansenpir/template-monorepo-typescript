@@ -20,6 +20,30 @@
     "lint:fix": {
       "cache": false,
       "persistent": true
+    },
+    "test": {
+      "cache": false,
+      "persistent": true
+    },
+    "test:unit": {
+      "cache": false,
+      "persistent": true
+    },
+    "test:integration": {
+      "cache": false,
+      "persistent": true
+    },
+    "test:verbose": {
+      "cache": false,
+      "persistent": true
+    },
+    "test:staged": {
+      "cache": false,
+      "persistent": true
+    },
+    "test:ci": {
+      "cache": false,
+      "persistent": true
     }
   }
 }

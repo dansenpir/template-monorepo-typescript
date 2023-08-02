@@ -4,9 +4,17 @@
   "private": true,
   "scripts": {
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "test": "jest --passWithNoTests --no-cache --runInBand --silent --noStackTrace",
+    "test:unit": "pnpm test -- --watch -c jest-unit-config.js",
+    "test:integration": "pnpm test -- --watch -c jest-integration-config.js",
+    "test:verbose": "jest --passWithNoTests --no-cache --runInBand",
+    "test:staged": "pnpm test --findRelatedTests",
+    "test:ci": "pnpm test:verbose --coverage"
   },
   "devDependencies": {
+    "jest-environment-jsdom": "^29.6.2",
+    "jestconfig": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^5.1.6"
   }
