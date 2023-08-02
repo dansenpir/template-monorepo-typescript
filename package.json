@@ -8,6 +8,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "@turbo/gen": "^1.9.7",
     "eslint-config-custom": "workspace:*",
     "husky": "^8.0.0",
