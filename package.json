@@ -4,14 +4,13 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "lint:fix": "turbo run lint:fix",
+    "lint:fix": "eslint --fix",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
     "test": "turbo run test",
     "test:unit": "turbo run test:unit",
     "test:integration": "turbo run test:integration",
     "test:verbose": "turbo run test:verbose",
-    "test:staged": "turbo run test:staged",
     "test:ci": "turbo run test:ci"
   },
   "devDependencies": {
@@ -19,6 +18,7 @@
     "@commitlint/config-conventional": "^17.6.7",
     "@turbo/gen": "^1.10.12",
     "@types/jest": "^29.5.3",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
     "eslint": "^8.46.0",
     "eslint-config-custom": "workspace:*",
     "eslint-config-prettier": "^8.10.0",

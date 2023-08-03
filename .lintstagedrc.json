@@ -1,6 +1,5 @@
 {
-  "/.ts(x?)$/": [
-    "pnpm run lint:fix",
-    "pnpm run test:staged"
+  "*.{ts,tsx}": [
+    "pnpm run lint:fix"
   ]
 }

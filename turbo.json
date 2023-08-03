@@ -37,10 +37,6 @@
       "cache": false,
       "persistent": true
     },
-    "test:staged": {
-      "cache": false,
-      "persistent": true
-    },
     "test:ci": {
       "cache": false,
       "persistent": true
