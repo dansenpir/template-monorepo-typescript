@@ -13,9 +13,6 @@
     "test:ci": "pnpm test:verbose --coverage"
   },
   "devDependencies": {
-    "jest-environment-jsdom": "^29.6.2",
-    "jestconfig": "workspace:*",
-    "tsconfig": "workspace:*",
-    "typescript": "^5.1.6"
+    "jest-environment-jsdom": "^29.6.2"
   }
 }

@@ -11,10 +11,5 @@
     "test:verbose": "jest --passWithNoTests --no-cache --runInBand",
     "test:staged": "pnpm test --findRelatedTests",
     "test:ci": "pnpm test:verbose --coverage"
-  },
-  "devDependencies": {
-    "jestconfig": "workspace:*",
-    "tsconfig": "workspace:*",
-    "typescript": "^5.1.6"
   }
 }
