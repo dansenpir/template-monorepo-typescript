@@ -1,0 +1,1 @@
+const stringTest: string = 'test';
