@@ -1,4 +1,4 @@
-name: Run tests on Pull Request
+name: Test
 
 on:
   pull_request:
