@@ -1,0 +1,32 @@
+name: Test
+
+on:
+  pull_request:
+    branches: ["develop", "main"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js 18.x with pnpm
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "pnpm"
+          cache-dependency-path: "./pnpm-lock.yaml"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run tests
+        run: pnpm run test:ci
+
+      - name: Check if all tests passed
+        run: |
+          if [ ${{ job.status }} == 'failure' ]; then
+            echo "Some tests failed"
+            exit 1
+          fi
