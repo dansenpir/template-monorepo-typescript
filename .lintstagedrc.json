@@ -1,5 +1,5 @@
 {
-  "*.{ts,tsx}": [
+  "*.ts": [
     "pnpm run lint:fix"
   ]
 }

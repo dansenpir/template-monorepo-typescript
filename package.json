@@ -5,7 +5,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format": "prettier --write \"**/*.{ts,md}\"",
     "prepare": "husky install",
     "test": "turbo run test",
     "test:unit": "turbo run test:unit",
