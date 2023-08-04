@@ -25,11 +25,11 @@ Este repositório é um template de monorepo para aplicações que utilizam Type
 - [Commitlint](https://github.com/conventional-changelog/commitlint);
 - [EditorConfig](https://editorconfig.org);
 - [ESLint](https://eslint.org);
-- [Prettier](https://prettier.io);
 - [GitHub Actions](https://docs.github.com/en/actions/using-workflows);
 - [Husky](https://github.com/typicode/husky);
 - [Jest](https://jestjs.io);
 - [PNPM](https://pnpm.io);
+- [Prettier](https://prettier.io);
 - [Turborepo](https://turbo.build/repo);
 - [TypeScript](https://www.typescriptlang.org).
 
@@ -57,10 +57,10 @@ This repository is a monorepo template for applications that use TypeScript on t
 - [EditorConfig](https://editorconfig.org);
 - [ESLint](https://eslint.org);
 - [GitHub Actions](https://docs.github.com/en/actions/using-workflows);
-- [Prettier](https://prettier.io);
 - [Husky](https://github.com/typicode/husky);
 - [Jest](https://jestjs.io);
 - [PNPM](https://pnpm.io);
+- [Prettier](https://prettier.io);
 - [Turborepo](https://turbo.build/repo);
 - [TypeScript](https://www.typescriptlang.org).
 
