@@ -9,6 +9,6 @@
     "test:integration": "pnpm test -- --watch -c jest-integration-config.js",
     "test:verbose": "jest --passWithNoTests --no-cache --runInBand",
     "test:staged": "pnpm test --findRelatedTests",
-    "test:ci": "pnpm test:verbose --coverage"
+    "test:ci": "jest --coverage"
   }
 }
