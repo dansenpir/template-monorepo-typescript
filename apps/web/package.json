@@ -9,7 +9,7 @@
     "test:integration": "pnpm test -- --watch -c jest-integration-config.js",
     "test:verbose": "jest --passWithNoTests --no-cache --runInBand",
     "test:staged": "pnpm test --findRelatedTests",
-    "test:ci": "jest --coverage"
+    "test:ci": "jest --passWithNoTests --coverage"
   },
   "devDependencies": {
     "jest-environment-jsdom": "^29.6.2"
