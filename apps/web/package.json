@@ -12,6 +12,6 @@
     "test:ci": "jest --passWithNoTests --coverage"
   },
   "devDependencies": {
-    "jest-environment-jsdom": "^29.6.2"
+    "jest-environment-jsdom": "^30.0.4"
   }
 }
