@@ -20,6 +20,7 @@
     "@commitlint/config-conventional": "^19.8.1",
     "@turbo/gen": "^2.5.5",
     "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.15",
     "jest": "^30.0.4",
     "jestconfig": "workspace:*",
     "lint-staged": "^16.1.2",
