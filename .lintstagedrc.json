@@ -1,5 +1,3 @@
 {
-  "*.ts": [
-    "pnpm run lint:fix"
-  ]
+  "**/*.{js,jsx,ts,tsx,json}": ["pnpm run format", "pnpm run lint:fix"]
 }

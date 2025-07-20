@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "lint": "eslint",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
     "test": "jest --passWithNoTests --no-cache --runInBand --silent --noStackTrace",
     "test:unit": "pnpm test -- --watch -c jest-unit-config.js",
     "test:integration": "pnpm test -- --watch -c jest-integration-config.js",

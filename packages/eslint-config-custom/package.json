@@ -1,9 +1,0 @@
-{
-  "name": "eslint-config-custom",
-  "version": "0.0.0",
-  "main": "./eslint-config-custom.json",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
-}

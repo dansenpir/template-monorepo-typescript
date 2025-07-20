@@ -2,13 +2,8 @@
   "extends": "tsconfig/api.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "baseUrl": "./src",
+    "baseUrl": "./src"
   },
-  "include": [
-    "**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "./dist"
-  ]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "./dist"]
 }

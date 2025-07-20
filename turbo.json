@@ -1,25 +1,29 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": [
-    "**/.env.*local"
-  ],
+  "globalDependencies": ["**/.env.*local"],
   "tasks": {
     "build": {
-      "outputs": [
-        "dist/**"
-      ]
+      "outputs": ["dist/**"]
     },
     "dev": {
       "cache": false,
       "persistent": true
     },
     "lint": {
-      "cache": false,
-      "persistent": true
+      "cache": true,
+      "inputs": ["src/**/*.{js,jsx,ts,tsx}", "biome.json"]
     },
     "lint:fix": {
       "cache": false,
-      "persistent": true
+      "inputs": ["src/**/*.{js,jsx,ts,tsx}", "biome.json"]
+    },
+    "format": {
+      "cache": false,
+      "inputs": ["src/**/*.{js,jsx,ts,tsx,json}", "biome.json"]
+    },
+    "format:check": {
+      "cache": true,
+      "inputs": ["src/**/*.{js,jsx,ts,tsx,json}", "biome.json"]
     },
     "test": {
       "cache": false,
