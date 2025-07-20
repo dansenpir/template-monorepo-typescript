@@ -1,0 +1,8 @@
+#!/bin/sh
+pnpm test:ci
+
+status=$?
+if [ $status -ne 0 ]; then
+  echo "npm run tes failed with status $status"
+  exit $status
+fi

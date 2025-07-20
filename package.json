@@ -1,12 +1,12 @@
 {
   "private": true,
   "scripts": {
+    "preinstall": "git config core.hooksPath hooks",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "lint:fix": "eslint --fix",
     "format": "prettier --write \"**/*.{ts,md}\"",
-    "prepare": "husky install",
     "test": "turbo run test",
     "test:unit": "turbo run test:unit",
     "test:integration": "turbo run test:integration",
@@ -24,7 +24,6 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-turbo": "^2.5.5",
     "eslint-plugin-prettier": "5.5.3",
-    "husky": "^9.1.7",
     "jest": "^30.0.4",
     "jestconfig": "workspace:*",
     "lint-staged": "^16.1.2",

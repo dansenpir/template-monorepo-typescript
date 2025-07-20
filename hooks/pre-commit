@@ -1,0 +1,8 @@
+#!/bin/sh
+npx lint-staged
+
+status=$?
+if [ $status -ne 0 ]; then
+  echo "lint-staged failed with status $status"
+  exit $status
+fi
