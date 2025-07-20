@@ -1,6 +1,7 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
+    "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Default",
+  "compileOnSave": true,
   "compilerOptions": {
     "composite": false,
     "declaration": true,
@@ -10,11 +11,24 @@
     "inlineSources": false,
     "isolatedModules": true,
     "moduleResolution": "node",
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "rootDirs": ["src"],
+    "outDir": "./dist/out-tsc",
+    "types": ["jest", "node"],
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "sourceMap": false,
+    "resolveJsonModule": false
   },
   "exclude": ["node_modules"]
 }
